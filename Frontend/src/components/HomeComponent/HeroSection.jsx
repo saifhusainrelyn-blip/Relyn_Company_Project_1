@@ -5,7 +5,7 @@ import Mouse from '../../assets/mouse.png'
 const HeroSection = () => {
   return (
     <section 
-      className="relative min-h-[110vh] w-full bg-cover bg-center bg-no-repeat flex items-center justify-center mt-[-50px]"
+      className="relative min-h-[120vh] w-full bg-cover bg-center bg-no-repeat flex items-center justify-center mt-[-50px]"
       style={{
         backgroundImage: `url(${BgImage})`,
         fontFamily: 'Raleway, sans-serif'
@@ -53,7 +53,7 @@ const HeroSection = () => {
           <span className="relative inline-block">
             {/* Background box for "for" - Bigger and More Rotated */}
             <span 
-              className="absolute bg-[#FF7656] px-8 py-4 rounded-xl text-xl md:text-2xl font-bold text-white z-0"
+              className="absolute bg-[#FF7656] px-7 py-4 rounded-xl text-xl md:text-2xl font-bold text-white z-0"
               style={{
                 top: '-35px',
                 left: '-40px',
