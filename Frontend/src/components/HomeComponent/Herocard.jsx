@@ -7,7 +7,11 @@ const WhatWeDo = () => {
     <section className="bg-[#F7FBFF] py-12 sm:py-16 md:py-20 px-4 sm:px-6 lg:px-8 font-['Raleway']">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="mb-8 sm:mb-10 md:mb-12">
+        <div 
+          className="mb-8 sm:mb-10 md:mb-12"
+          data-aos="fade-up"
+          data-aos-duration="800"
+        >
           <h3 className="text-black text-xs sm:text-sm font-semibold uppercase mb-2 tracking-[0.2em] font-sans">
             WHAT WE DO
           </h3>
@@ -20,12 +24,17 @@ const WhatWeDo = () => {
         {/* Cards Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10">
           {/* Card 1 - Property Preservation */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+          <div 
+            className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,118,87,0.5)] group"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="100"
+          >
             <div className="w-full h-48 sm:h-56 md:h-64 lg:h-72 bg-white p-2">
               <img
                 src={cardimg1}
                 alt="Property Preservation"
-                className="w-full h-full object-cover rounded-lg"
+                className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <div className="p-6 sm:p-8 text-center">
@@ -39,12 +48,17 @@ const WhatWeDo = () => {
           </div>
 
           {/* Card 2 - Routine Maintenance */}
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+          <div 
+            className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:shadow-[0_0_30px_rgba(255,118,87,0.5)] group"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
             <div className="w-full h-48 sm:h-56 md:h-64 lg:h-72 bg-white p-2">
               <img
                 src={cardimg2}
                 alt="Routine Maintenance"
-                className="w-full h-full object-cover rounded-lg"
+                className="w-full h-full object-cover rounded-lg transform transition-transform duration-300 group-hover:scale-105"
               />
             </div>
             <div className="p-6 sm:p-8 text-center">
